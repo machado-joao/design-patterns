@@ -1,3 +1,5 @@
+package com.github.singleton;
+
 public class DoubleCheckedLocking {
 
     private static volatile DoubleCheckedLocking instance;
@@ -19,3 +21,4 @@ public class DoubleCheckedLocking {
     }
 
 }
+
